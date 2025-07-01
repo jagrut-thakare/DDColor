@@ -52,6 +52,7 @@ datasets:
     cutmix_p: 0.5
     do_fmix: False
     fmix_p: 0.5
+    pbar : True
 
 # network structures
 network_g:
@@ -83,6 +84,7 @@ path:
 
 # training settings
 train:
+  pbar: True
   color_enhance: True
   color_enhance_factor: 1.2
   optim_g:
