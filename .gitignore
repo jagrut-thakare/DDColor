@@ -1,4 +1,5 @@
 # ignored folders
+imagenet-mini
 datasets/*
 experiments/*
 results/*
